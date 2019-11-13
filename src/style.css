@@ -1,0 +1,113 @@
+.signButton {
+    border-radius: 12px;
+    color: #ffffff !important;
+    padding: 2px 5px !important;
+}
+.portButton {
+    padding: 5px 20px !important;
+    border-radius: 12px;
+    color: #ffffff !important;
+
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+.carousel-inner img {
+    min-width: 100%;
+    max-height: 100vh;
+
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.column1 {
+    background-color: rgb(13, 152, 238);
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; */
+}
+.column2 {
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.column3 {
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.savingButton {
+    border-radius: 17px;
+    
+}
+.aboutColumn {
+    padding-left: 12rem!important;
+}
+/* .man {
+    max-width: 103%;
+    height: 60%;
+} */
+.sectionPadding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(26, 160, 243);
+}
+.faceImage {
+    border-radius: 20px;
+    height: 90px;
+}
+.footerPadding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(to bottom, rgba(128,128,128, .8), rgba(128,128,128, .8)), url(../assets/img/city.jpg);
+    background-size: cover;
+}
+.more {
+    font-weight: 600;
+}
+.moreColumn {
+    padding-right: 10rem !important;
+    padding-left: 2.5rem !important;
+}
+.groupImage {
+    /* height: 20px; */
+}
+.moreButton {
+    border-radius: 17px;
+}
+hr {
+    color: #ffffff;
+}
+.signDiv {
+    background-color: rgba(8, 141, 8, 0.644);
+}
+.signButton {
+    border-radius: 17px;
+    font-weight: bold;
+    color: black !important;
+}
+@media (max-width: 600px) {
+    .aboutColumn {
+        padding-left: 2rem!important;
+    }
+    .moreColumn {
+        padding-right: 3rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .moreButton {
+        margin-bottom: 10px !important;
+    }
+    }
+}
