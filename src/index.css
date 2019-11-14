@@ -241,6 +241,9 @@
     font-weight: 505;
     font-family: 'Lato', sans-serif;
 }
+.navbar .img .ver {
+    color: lightgreen !important;
+}
 @media screen and (max-width: 850px) {
 .homePage-nav {
     /* position:static; */

@@ -6,7 +6,9 @@
 .portButton {
     padding: 5px 20px !important;
     border-radius: 12px;
+    font-weight: 600;
     color: #ffffff !important;
+    font-family: 'Lato', sans-serif;
 
 }
 .navbar .navbar-nav .nav-item .nav-link {
@@ -29,24 +31,24 @@
 }
 .column1 {
     background-color: rgb(13, 152, 238);
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px; */
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
 }
 .column2 {
-    background-color: lightblue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgb(10, 185, 243);
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
 }
 .column3 {
-    background-color: lightgreen;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgb(100, 196, 100);
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
 }
 .savingButton {
     border-radius: 17px;
@@ -54,11 +56,14 @@
 }
 .aboutColumn {
     padding-left: 12rem!important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
 }
-/* .man {
-    max-width: 103%;
-    height: 60%;
-} */
+
+.img-fluid man {
+    max-width: 100% !important;
+    height: 316% !important;
+}
 .sectionPadding {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -76,28 +81,78 @@
 }
 .more {
     font-weight: 600;
+    font-family: 'Lato', sans-serif;
+
 }
 .moreColumn {
     padding-right: 10rem !important;
     padding-left: 2.5rem !important;
+    padding-top: 130px !important;
+    padding-top: 130px !important;
 }
+.more
 .groupImage {
     /* height: 20px; */
 }
 .moreButton {
     border-radius: 17px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(100, 196, 100);
+}
+.moreLorem {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
 }
 hr {
     color: #ffffff;
 }
 .signDiv {
-    background-color: rgba(8, 141, 8, 0.644);
+    background-color: rgb(100, 196, 100);
 }
 .signButton {
     border-radius: 17px;
-    font-weight: bold;
-    color: black !important;
+    font-weight: 700;
+    color: #ffffff !important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
+.contactDiv {
+    margin-top: 60px;
+    padding-left: 40px;
+}
+.ver {
+    color: lightgreen;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.fin {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.navLinks {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.taxPlan-h1 {
+    font-family: 'Lato', sans-serif;
+}
+.taxButton {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.phone {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.firePhoto {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
 @media (max-width: 600px) {
     .aboutColumn {
         padding-left: 2rem!important;
@@ -109,5 +164,46 @@ hr {
     .moreButton {
         margin-bottom: 10px !important;
     }
+    .signButton {
+        border-radius: px;
+        color: #ffffff !important;
+        padding: 2px 2px !important;
+        width: 15%;
+    }
+    .portButton {
+        padding: 5px 5px !important;
+        border-radius: 12px;
+        font-weight: 600;
+        color: #ffffff !important;
+        font-family: 'Lato', sans-serif;
+        width: 22%;
+    
+    }
+    .column1 {
+        background-color: rgb(13, 152, 238);
+        padding-top: 56px !important;
+        padding-bottom: 56px !important;
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+    }
+    .column2 {
+        background-color: rgb(10, 185, 243);
+        padding-top: 56px !important;
+        padding-bottom: 56px !important;
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+    }
+    .column3 {
+        background-color: rgb(100, 196, 100);
+        padding-top: 56px !important;
+        padding-bottom: 56px !important;
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+    }
+    .moreColumn {
+        padding-right: 1rem !important;
+        padding-left: 2.5rem !important;
+        /* padding-top: 130px !important; */
+        padding-top: 94px !important;
     }
 }
